@@ -18,92 +18,94 @@ public class btvn {
             int hundreds=number/100;
             switch (hundreds){
                 case 1:
-                    System.out.println("Một trăm ");
+                    System.out.print("Một trăm"+" ");
                     break;
                 case 2:
-                    System.out.println("Hai trăm");
+                    System.out.print("Hai trăm"+" ");
                     break;
                 case 3:
-                    System.out.println("Ba trăm");
+                    System.out.print("Ba trăm"+" ");
                     break;
                 case 4:
-                    System.out.println("Bốn trăm");
+                    System.out.print("Bốn trăm"+" ");
                     break;
                 case 5:
-                    System.out.println("Năm trăm");
+                    System.out.print("Năm trăm"+" ");
                     break;
                 case 6:
-                    System.out.println("Sáu trăm");
+                    System.out.print("Sáu trăm"+" ");
                     break;
                 case 7:
-                    System.out.println("Bảy trăm");
+                    System.out.print("Bảy trăm"+" ");
                     break;
                 case 8:
-                    System.out.println("Tám trăm");
+                    System.out.print("Tám trăm"+" ");
                     break;
                 case 9:
-                    System.out.println("Chín trăm");
+                    System.out.print("Chín trăm"+" ");
                     break;
+            }if (tens%10==0&&units!=0) {
+                System.out.print("lẻ"+" ");
             }
-            if (tens%10==0&&units!=0){
                 switch (tens){
                     case 1:
-                        System.out.println("mười");
+                        System.out.print("mười"+" ");
                         break;
                     case 2:
-                        System.out.println("hai mươi");
+                        System.out.print("hai mươi"+" ");
                         break;
                     case 3:
-                        System.out.println("ba mươi");
+                        System.out.print("ba mươi"+" ");
                         break;
                     case 4:
-                        System.out.println("bốn mươi");
+                        System.out.print("bốn mươi"+" ");
                         break;
                     case 5:
-                        System.out.println("năm mươi");
+                        System.out.print("năm mươi"+" ");
                         break;
                     case 6:
-                        System.out.println("sáu mươi");
+                        System.out.print("sáu mươi"+" ");
                         break;
                     case 7:
-                        System.out.println("bảy mươi");
+                        System.out.print("bảy mươi"+" ");
                         break;
                     case 8:
-                        System.out.println("tám mươi");
+                        System.out.print("tám mươi"+" ");
                         break;
                     case 9:
-                        System.out.println("chín mươi");
+                        System.out.print("chín mươi"+" ");
                         break;
                 }
                 switch (units){
                     case 1:
-                        System.out.println("một");
+                        System.out.print("một");
                         break;
                     case 2:
-                        System.out.println("hai");
+                        System.out.print("hai");
                         break;
                     case 3:
-                        System.out.println("ba");
+                        System.out.print("ba");
                         break;
                     case 4:
-                        System.out.println("bốn");
+                        System.out.print("bốn");
                         break;
                     case 5:
-                        System.out.println("năm");
+                        System.out.print("năm");
                         break;
                     case 6:
-                        System.out.println("sáu");
+                        System.out.print("sáu");
                         break;
                     case 7:
-                        System.out.println("bảy");
+                        System.out.print("bảy");
                         break;
                     case 8:
-                        System.out.println("tám");
+                        System.out.print("tám");
                         break;
                     case 9:
-                        System.out.println("chín");
+                        System.out.print("chín");
                         break;
                 }
+
             }
 
 
@@ -113,4 +115,4 @@ public class btvn {
 
 
     }
-}
+
