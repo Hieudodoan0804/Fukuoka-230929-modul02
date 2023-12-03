@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9a2a947-c62d-4145-88dc-ee34e88324a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c2c58224-d6be-4611-bc20-e2bcc558c8ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../session1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +12,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2Ytp0S9S4PRvZ4RVBRVxlBkZWwi" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2Z1kAGUMGTWYuqD9Vi2Mw2nMOnO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,23 +26,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "/Users/Doan Hieu/Fukuoka-230929-modul02/Fukuoka-230929-modul02/session2-array",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9a2a947-c62d-4145-88dc-ee34e88324a0" name="Changes" comment="" />
-      <created>1701354507504</created>
+      <changelist id="c2c58224-d6be-4611-bc20-e2bcc558c8ae" name="Changes" comment="" />
+      <created>1701596828523</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701354507504</updated>
-      <workItem from="1701354508748" duration="18000" />
-      <workItem from="1701429812291" duration="1424000" />
+      <updated>1701596828523</updated>
+      <workItem from="1701596829631" duration="87000" />
     </task>
     <servers />
   </component>
