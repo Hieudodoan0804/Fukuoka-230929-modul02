@@ -1,17 +1,18 @@
+package Author;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Author {
-    private String id;
+    private int id;
     private String name;
     private String email;
     private String gender;
     private int age;
-    private Author[] authors;
-
     public Author() {
     }
 
-    public Author(String id, String name, String email, String gender, int age) {
+    public Author(int id, String name, String email, String gender, int age) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -19,11 +20,11 @@ public class Author {
         this.age = age;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -58,23 +59,4 @@ public class Author {
     public void setAge(int age) {
         this.age = age;
     }
-
-    public void addAuthor() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập id tác giả:");
-        id =scanner.nextLine();
-        System.out.println("Nhập tên tác giả:");
-        name = scanner.nextLine();
-        System.out.println("Nhập email tác giả:");
-        email = scanner.nextLine();
-        System.out.println("Nhập gender tác giả:");
-        gender = scanner.nextLine();
-        System.out.println("Nhập age tác giả:");
-        age = Integer.parseInt(scanner.nextLine());
-        System.out.println("Tác giả đã được thêm thành công.");
-    }
-
-
-
-
 }
