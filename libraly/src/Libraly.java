@@ -29,7 +29,7 @@ public class Libraly {
         public static void main(String[] args) {
 
 
-            do{
+           /* do{
                 System.out.println("Menu chính: ");
                 System.out.println("1. Quản lý tác giả");
                 System.out.println("2. Quản lý sách");
@@ -40,11 +40,11 @@ public class Libraly {
 
                 }
 
-            }while (choose!=3);
+            }while (choose!=3);*/
         }
 
 
-        static void authorManagenment(){
+    /*    static void authorManagenment(){
             do {
                 System.out.println("Menu quản lý tác giả: ");
                 System.out.println("1. Thêm tác giả");
@@ -59,7 +59,7 @@ public class Libraly {
                 }
 
             }while (choose!=5);
-        }
+        }*/
 
 
 }
