@@ -1,3 +1,5 @@
+package execise1;
+
 import java.text.MessageFormat;
 
 public class Staff extends Person {
@@ -28,6 +30,6 @@ public class Staff extends Person {
 
     @Override
     public String toString() {
-        return MessageFormat.format("Staff{0}, school={1} pay={2}",super.toString(), this.school, this.pay);
+        return MessageFormat.format("execise1.Staff{0}, school={1} pay={2}",super.toString(), this.school, this.pay);
     }
 }

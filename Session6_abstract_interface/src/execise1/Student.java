@@ -1,3 +1,5 @@
+package execise1;
+
 import java.text.MessageFormat;
 
 public class Student extends Person {
@@ -39,6 +41,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return MessageFormat.format("Student{0}, program={1}, year={2}, fee={3}", super.toString(), this.program, this.year, this.fee);
+        return MessageFormat.format("execise1.Student{0}, program={1}, year={2}, fee={3}", super.toString(), this.program, this.year, this.fee);
     }
 }
