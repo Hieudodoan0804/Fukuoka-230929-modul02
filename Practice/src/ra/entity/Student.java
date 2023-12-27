@@ -153,7 +153,7 @@ public class Student implements IStudentManagement {
         System.out.print("Nhập mã sinh viên: ");
         do {
             this.studentId = scanner.nextLine();
-            if (this.studentId.length() == 6 && this.studentId.startsWith("S")) {
+            if (this.studentId.matches("^S.{5}$")) {
                 break;
             } else {
                 System.out.println("Mã sinh viên gồm 6 ký tự bắt đầu là S, vui lòng nhập lại!");
@@ -165,7 +165,7 @@ public class Student implements IStudentManagement {
         System.out.print("Nhập tên sinh viên: ");
         do {
             this.studentName = scanner.nextLine();
-            if (this.studentName.length() >= 20 && this.studentName.length() <= 50) {
+            if (this.studentName.matches("^(.{20,50})$")) {
                 break;
             } else {
                 System.out.println("Tên sinh viên gồm 20-50 ký tự,vui lòng nhập lại");
@@ -210,7 +210,7 @@ public class Student implements IStudentManagement {
     }
 
     public void inputMark(Scanner scanner, String subjectName) {
-        System.out.printf("Nhập vapf điểm %s:\n", subjectName);
+        System.out.printf("Nhập vào điểm %s:\n", subjectName);
         switch (subjectName) {
             case "Javascript":
                 this.listMarkJavaScript.add(Float.parseFloat(scanner.nextLine()));

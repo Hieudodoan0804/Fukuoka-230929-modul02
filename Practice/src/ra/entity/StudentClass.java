@@ -79,7 +79,7 @@ public class StudentClass implements IStudentManagement {
         System.out.println("Nhập vào tên lớp:");
         do {
             this.className = scanner.nextLine();
-            if (this.className.length() <= 10) {
+            if (this.className.matches("^.{1,10}$")) {
                 break;
             } else {
                 System.out.println("Tên lớp tối đa 10 ký tự, vui lòng nhập lại!");
